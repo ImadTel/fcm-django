@@ -261,9 +261,10 @@ class FCMDeviceQuerySet(models.query.QuerySet):
 FCMDeviceManager = _FCMDeviceManager.from_queryset(FCMDeviceQuerySet)
 
 
-DeviceType = [
-    ('exact', 'Exact Online'),
-    ('migration', 'Freelance Plaza Migration'),
+DeviceType =  [
+    ('ios', 'ios'),
+    ('android', 'android'),
+    ('web', 'web')
     ]
 
 
